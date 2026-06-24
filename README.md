@@ -20,10 +20,3 @@ To use, run `npm i --save-dev @lichtblick/tsconfig`, then extend your `tsconfig.
 ## License
 
 [MIT License](/LICENSE.md)
-
-## Releasing
-
-```sh
-tag=$(npm version minor) && echo "$tag"
-git push && git push origin "$tag"
-```
