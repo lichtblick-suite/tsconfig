@@ -7,7 +7,10 @@
     "module": "es2022",
     "target": "es2022",
     "lib": ["es2022"],
-    "moduleResolution": "node",
+
+    // "node"/"node10" resolution is deprecated as of TS 6.0; use "bundler" which
+    // matches the esbuild/babel transpiler workflows this config targets
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
     "importHelpers": true,
 
