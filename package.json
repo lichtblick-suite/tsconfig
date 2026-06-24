@@ -1,7 +1,7 @@
 {
   "name": "@lichtblick/tsconfig",
   "private": false,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Base TypeScript configuration for Lichtblick projects",
   "license": "MIT",
   "repository": {
