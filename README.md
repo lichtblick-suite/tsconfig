@@ -47,7 +47,7 @@ Publishing the Release (step 3, via `gh` or the GitHub UI) emits the
 
 > **Note:** the auto-bump only ever does a `patch` bump. For a breaking change,
 > manually bump the `major` (or `minor`) in `package.json` before releasing so the
-> published version reflects semver.
+> published version reflects that correctly.
 
 ## License
 
